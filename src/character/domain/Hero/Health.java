@@ -1,4 +1,4 @@
-package character.statistics;
+package character.domain.Hero;
 
 public class Health extends Statistic{
 
@@ -6,8 +6,8 @@ public class Health extends Statistic{
         super(value);
     }
 
-    public int getValue() {
-        return super.getValue();
+    public int getCurrent() {
+        return super.getCurrent();
     }
 
     public int getMax() {
@@ -15,10 +15,10 @@ public class Health extends Statistic{
     }
 
     public void takeDamage(int damage) {
-        super.setValue(Math.max(0, getValue() - damage));
+        super.setCurrent(Math.max(0, getCurrent() - damage));
     }
 
     public void heal(int healingPoints) {
-        super.setValue(Math.max(getMax(), getValue() + healingPoints));
+        super.setCurrent(Math.max(getMax(), getCurrent() + healingPoints));
     }
 }

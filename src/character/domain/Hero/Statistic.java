@@ -1,20 +1,20 @@
-package character.statistics;
+package character.domain.Hero;
 
 public abstract class Statistic {
-    private int value;
+    private int current;
     private int max;
 
     public Statistic(int value) {
         this.max = value;
-        this.value = value;
+        this.current = value;
     }
 
-    public int getValue() {
-        return value;
+    public int getCurrent() {
+        return current;
     }
 
-    public void setValue(int value) {
-        this.value = value;
+    public void setCurrent(int current) {
+        this.current = current;
     }
 
     public int getMax() {

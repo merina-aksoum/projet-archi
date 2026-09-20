@@ -1,4 +1,4 @@
-package character.name;
+package character.domain.Hero;
 
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;

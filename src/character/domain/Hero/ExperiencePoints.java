@@ -1,4 +1,4 @@
-package character.statistics;
+package character.domain.Hero;
 
 public class ExperiencePoints extends Statistic{
     public ExperiencePoints(int value){
@@ -9,8 +9,8 @@ public class ExperiencePoints extends Statistic{
         
     }
 
-    public int getValue() {
-        return super.getValue();
+    public int getCurrent() {
+        return super.getCurrent();
     }
 
     public int getMax() {

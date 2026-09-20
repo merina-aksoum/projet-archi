@@ -1,4 +1,4 @@
-package character.statistics;
+package character.domain.Hero;
 
 public class MagicPoints extends Statistic{
 
@@ -6,8 +6,8 @@ public class MagicPoints extends Statistic{
         super(value);
     }
 
-    public int getValue() {
-        return super.getValue();
+    public int getCurrent() {
+        return super.getCurrent();
     }
 
     public int getMax() {
