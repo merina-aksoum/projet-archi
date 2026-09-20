@@ -1,4 +1,4 @@
-package character.application.usecase.HeroCreationUseCase;
+package application.usecase.HeroCreationUseCase;
 
 public class HeroCreationUseCase {
     public HeroCreationUseCase() {

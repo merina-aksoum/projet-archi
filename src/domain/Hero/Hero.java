@@ -1,6 +1,6 @@
-package character.domain.Hero;
+package domain.Hero;
 
-import character.domain.Hero.Race.Race;
+import domain.Hero.Race.Race;
 
 import java.util.UUID;
 

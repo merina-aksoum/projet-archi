@@ -1,4 +1,4 @@
-package character.application.ports;
+package application.ports;
 
 public interface HeroRepository {
 

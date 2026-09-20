@@ -1,4 +1,4 @@
-package character.domain.Hero;
+package domain.Hero;
 
 public class ExperiencePoints extends Statistic{
     public ExperiencePoints(int value){

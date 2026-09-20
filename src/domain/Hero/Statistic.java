@@ -1,4 +1,4 @@
-package character.domain.Hero;
+package domain.Hero;
 
 public abstract class Statistic {
     private int current;

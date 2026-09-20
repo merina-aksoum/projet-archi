@@ -1,4 +1,4 @@
-package character.domain.Hero;
+package domain.Hero;
 
 import java.util.HashMap;
 

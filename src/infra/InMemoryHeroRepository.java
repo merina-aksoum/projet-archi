@@ -1,4 +1,4 @@
-package character.infra;
+package infra;
 
 public class InMemoryHeroRepository {
 }

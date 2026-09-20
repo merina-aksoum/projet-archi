@@ -1,6 +1,6 @@
-package character.domain.Hero.Race;
+package domain.Hero.Race;
 
-import character.domain.Hero.Characteristics;
+import domain.Hero.Characteristics;
 
 public class Human implements Race{
 
